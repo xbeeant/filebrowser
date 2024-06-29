@@ -2,6 +2,49 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.30.0](https://github.com/filebrowser/filebrowser/compare/v2.29.0...v2.30.0) (2024-05-19)
+
+
+### Features
+
+* allow multi-select with SHIFT key in singleClick mode ([#3185](https://github.com/filebrowser/filebrowser/issues/3185)) ([2e47a03](https://github.com/filebrowser/filebrowser/commit/2e47a038d63de8f848b070578c1d71f765438a24))
+* Enhance MIME Type Detection for Additional File Extensions ([#3183](https://github.com/filebrowser/filebrowser/issues/3183)) ([be62f56](https://github.com/filebrowser/filebrowser/commit/be62f56782551e17d6d5dc23bc29cc56ef961a66))
+
+
+### Bug Fixes
+
+* add overlay for sidebar on mobile ([#3197](https://github.com/filebrowser/filebrowser/issues/3197)) ([3b48f75](https://github.com/filebrowser/filebrowser/commit/3b48f75301287fe94cbbacff184b4db03f37f7ea))
+* current folder name in page title ([#3200](https://github.com/filebrowser/filebrowser/issues/3200)) ([e336a25](https://github.com/filebrowser/filebrowser/commit/e336a25ad29ed8b956169d426992860a877ee551))
+* Fixing the inability to play MKV video files online and enhancing the auxiliary features of the VideoPlayer. ([#3181](https://github.com/filebrowser/filebrowser/issues/3181)) ([782375b](https://github.com/filebrowser/filebrowser/commit/782375b1cb4c4f954468c30ec277ce021c82b40d))
+* shell window size ([#3198](https://github.com/filebrowser/filebrowser/issues/3198)) ([4c5b612](https://github.com/filebrowser/filebrowser/commit/4c5b612cb2563817f9da50413c7cf9e89b4c4d4a))
+* The file type icon in the file list is sensitive to the case of the suffix name ([#3187](https://github.com/filebrowser/filebrowser/issues/3187)) ([a9c327c](https://github.com/filebrowser/filebrowser/commit/a9c327cc0687796a3c7bfafd4ddabf4342859e31))
+
+## [2.29.0](https://github.com/filebrowser/filebrowser/compare/v2.28.0...v2.29.0) (2024-04-30)
+
+
+### Features
+
+* Display Upload Progress as Percentage and File Size / Total File Size ([#3111](https://github.com/filebrowser/filebrowser/issues/3111)) ([236ca63](https://github.com/filebrowser/filebrowser/commit/236ca637f99e373adfeaaefc5db6af50bd15b6bf))
+* migrate to vue 3 ([#2689](https://github.com/filebrowser/filebrowser/issues/2689)) ([5100e58](https://github.com/filebrowser/filebrowser/commit/5100e587d73831ecdb5e3bd35a78fef96ad248a4))
+
+
+### Bug Fixes
+
+* abort upload behavior to properly handle server-side deletion and frontend state reset ([#3114](https://github.com/filebrowser/filebrowser/issues/3114)) ([434e49b](https://github.com/filebrowser/filebrowser/commit/434e49bf59e4ddf7ec90893fa3fd53faee8c9cbb))
+* apply proper zindex to modal dialogs ([#3172](https://github.com/filebrowser/filebrowser/issues/3172)) ([821f51e](https://github.com/filebrowser/filebrowser/commit/821f51ea5ad1f5c2eb72441bc761031cacee43e1))
+* correct list item selector ([#3126](https://github.com/filebrowser/filebrowser/issues/3126)) ([#3147](https://github.com/filebrowser/filebrowser/issues/3147)) ([22a05e1](https://github.com/filebrowser/filebrowser/commit/22a05e1f02a083cf7b630e16873dad0de89b7854))
+* don't redirect to login when no auth ([#3165](https://github.com/filebrowser/filebrowser/issues/3165)) ([da5a6e0](https://github.com/filebrowser/filebrowser/commit/da5a6e051faa80134c2adf4e621426cbdf046c88))
+* Frontend bug, administrators unable to delete users ([#3170](https://github.com/filebrowser/filebrowser/issues/3170)) ([bee71d9](https://github.com/filebrowser/filebrowser/commit/bee71d93fee137cdd807cd8f7716c7da0830fae7))
+* handle quotes in healthcheck.sh ([#3130](https://github.com/filebrowser/filebrowser/issues/3130)) ([18f04a7](https://github.com/filebrowser/filebrowser/commit/18f04a7d26186927f51f46354f3b2164a68f1b41))
+* the copy method in clipboard.ts ([#3177](https://github.com/filebrowser/filebrowser/issues/3177)) ([4786187](https://github.com/filebrowser/filebrowser/commit/4786187852b8eef07e40aa00cd159ccc1e7e79dc))
+
+
+### Build
+
+* bump go version to 1.22.1 ([bbd0abb](https://github.com/filebrowser/filebrowser/commit/bbd0abbdfdbb3ddf3326247b7c6d925751dfabcb))
+* bump go version to 1.22.2 ([#3158](https://github.com/filebrowser/filebrowser/issues/3158)) ([a9da7fd](https://github.com/filebrowser/filebrowser/commit/a9da7fd56c849b5a13133136b35ef5ebee622962))
+* **deps:** bump golang.org/x/net from 0.22.0 to 0.23.0 ([#3133](https://github.com/filebrowser/filebrowser/issues/3133)) ([6b77b8d](https://github.com/filebrowser/filebrowser/commit/6b77b8d683f7357ef71af678550e78910c10ddeb))
+
 ## [2.28.0](https://github.com/filebrowser/filebrowser/compare/v2.27.0...v2.28.0) (2024-04-01)
 
 
